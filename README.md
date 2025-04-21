@@ -123,7 +123,7 @@ https://github.com/ACAT-SCUT
 1. Lin, Shengsheng and Lin, Weiwei* and Wu, Wentai and Chen, Haojun and et al. SparseTSF: Modeling Long-term Time Series Forecasting with 1k Parameters. 2024 International Conference on Machine Learning. (ICML 2024 Oral)
 2. Lin, Shengsheng and Lin, Weiwei* and Hu, Xinyi and et al. CycleNet: Enhancing Time Series Forecasting through Modeling Periodic Patterns, 2024 Advances in Neural Information Processing Systems. (NeurIPS 2024 Spotlight)
 3. Lin, Shengsheng and Lin, Weiwei* and Wu, Wentai and Wang, Songbo and Wang, Yongxiang. Petformer: Long-term time series forecasting via placeholder-enhanced transformer. IEEE Transactions on Emerging Topics in Computational Intelligence,2025.
-4. Lin, Shengsheng and Lin, Weiwei* and Wu, Wentai and Zhao, Feiyu and Mo, Ruichao and Zhang, Haotong. Segrnn: Segment recurrent neural network for long-term time series forecasting. IEEE Transactions on Neural Networks and Learning Systems. (在投)
+4. Lin, Shengsheng and Lin, Weiwei* and Wu, Wentai and Zhao, Feiyu and Mo, Ruichao and Zhang, Haotong. Segrnn: Segment recurrent neural network for long-term time series forecasting. arXiv preprint arXiv:2308.11200, 2023.
 
 #### 4.2.2 基于时序预测的异常检测
 
