@@ -114,7 +114,11 @@
 
 ### 4.1 相关学习资料
 
-https://github.com/ACAT-SCUT
+- https://github.com/ACAT-SCUT
+- https://github.com/ddz16/TSFpaper
+- https://github.com/thuml/Time-Series-Library
+- https://github.com/decisionintelligence/TFB
+- http://github.com/GestaltCogTeam/BasicTS
 
 ### 4.2 实验室相关成果
 
