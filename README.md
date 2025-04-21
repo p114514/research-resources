@@ -114,7 +114,9 @@
 
 ### 4.1 相关学习资料
 
-- https://github.com/ACAT-SCUT
+- https://github.com/ACAT-SCUT/CycleNet
+- https://github.com/lss-1138/SparseTSF
+- https://github.com/lss-1138/SegRNN
 - https://github.com/ddz16/TSFpaper
 - https://github.com/thuml/Time-Series-Library
 - https://github.com/decisionintelligence/TFB
