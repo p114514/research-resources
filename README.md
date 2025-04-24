@@ -6,9 +6,10 @@
 2. 《Energy Efficient servers Blueprints for Data Center Optimization》：是一本介绍能源高效服务器及其在数据中心优化中应用的图书。该书由C. Gough、I. Steiner和W. Saunders撰写，详细探讨了用于能源高效服务器的电源管理技术和方法。
 3. 《性能之巅：洞悉系统、企业与云计算》：性能工程领域的经典著作，由资深专家Brendan Gregg撰写。本书系统性地探讨了复杂环境下的性能分析与优化方法，覆盖从传统硬件到云计算的全栈技术，结合理论与实践，为读者提供了应对现代系统性能挑战的全面指南。
 4. 服务器功耗数据集：https://www.spec.org/power_ssj2008/results/power_ssj2008/
-5. 功耗相关基准：https://www.spec.org/power/
-6. Wentai Wu，Weiwei Lin，Keqin Li. Energy efficiency of servers in data centers. (Encyclopedia of Sustainable Technologies (可持续技术百科全书), 2nd Edition) Elsevier. 2023.03  
-7. Weiwei Lin，Wentai Wu，Keqin Li. Energy-Saving Technologies of Servers in Data Centers . (Data Center Handbook: Plan, Design, Build, and Operations of a Smart Data Center, 2021: 337-348.) John Wiley & Sons, Inc.. 2021.05
+5. Marconi 100超算中心数据集：https://gitlab.com/ecs-lab/exadata/-/tree/main?ref_type=heads
+6. 功耗相关基准：https://www.spec.org/power/
+7. Wentai Wu，Weiwei Lin，Keqin Li. Energy efficiency of servers in data centers. (Encyclopedia of Sustainable Technologies (可持续技术百科全书), 2nd Edition) Elsevier. 2023.03  
+8. Weiwei Lin，Wentai Wu，Keqin Li. Energy-Saving Technologies of Servers in Data Centers . (Data Center Handbook: Plan, Design, Build, and Operations of a Smart Data Center, 2021: 337-348.) John Wiley & Sons, Inc.. 2021.05
 
 ### 1.2 实验室相关成果
 
