@@ -157,7 +157,12 @@
 
 ### 5.1 相关学习资料
 
-#### 5.2 实验室相关成果
+1. 实验室内部报告：《基于Atlas计算平台的端边云协同及统一调度技术研究》
+2. Docker: 容器化平台，轻量级部署，https://www.docker.com/
+3. 《The Blockchain Developer: A Practical Guide for Designing, Implementing, Publishing, Testing, and Securing Distributed Blockchain-based Projects》：是一本实践指南，旨在帮助开发者学习如何设计、搭建、发布、测试和确保区块链应用的安全性。由Elad Elrom于2019年撰写，书中详细介绍了区块链的技术原理，并阐述了如何将这些原理应用于实际项目中。
+4. 《Automated Machine Learning: Methods, Systems, Challenges (The Springer Series on Challenges in Machine Learning)》：是关于自动化机器学习（AutoML）的第一本全面概述，介绍了AutoML中的通用方法、基于这些方法的现有系统，并讨论了首系列国际AutoML系统挑战。由Frank Hutter、Lars Kotthoff和Joaquin Vanschoren编辑，2019年出版，书中深入探讨了商用机器学习应用的成功和这一领域的快速增长，为研究人员、高级学生及实践者提供了进入这一快速发展的领域的入门参考。
+
+### 5.2 实验室相关成果
 
 1. Wangbo Shen, Weiwei Lin*, Wentai Wu, Haijie Wu, Keqin Li. Reinforcement learning-based task scheduling for heterogeneous computing in end-edge-cloud environment.  Cluster Computing, 2025, 28(3)
 2. Haijie Wu, Weiwei Lin*, Wangbo Shen, Xiumin Wang, C. L. Philip Chen, Keqin Li. Prediction of Heterogeneous Device Task Runtime Based on Edge Server-Oriented Deep Neuro-Fuzzy System.  IEEE Transactions on Services Computing, 2025,18(1):372 - 384
