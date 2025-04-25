@@ -175,14 +175,73 @@
 9. Tiansheng Huang, Weiwei Lin*, Xiaobin Hong, Xiumin Wang*, Qingbo Wu, Ching-Hsien Hsu, Albert Y. Zomaya. Adaptive Processor Frequency Adjustment for Mobile Edge Computing with Intermittent Energy Supply.  IEEE Internet of Things Journal, 2022,9(10):7446 - 7462
 10. 陈玉平, 刘波, 林伟伟*, 程慧雯. 云边协同综述.  计算机科学, 2021, 48(3):259-267
 
-## 6.联邦学习 
+## 6.联邦学习
 
 ### 6.1 相关学习资料
 
-### 6.2 实验室相关成果
+#### 6.1.1 官方教程与文档
+
+**1.Google's Federated Learning:**
+[https://ai.googleblog.com/2017/04/federated-learning-collaborative.html](https://ai.googleblog.com/2017/04/federated-learning-collaborative.html)
+**谷歌官方博客中介绍了FL的基本概念与应用。**
+
+**2.TensorFlow Federated (TFF):**
+[https://www.tensorflow.org/federated](https://www.tensorflow.org/federated)
+**官方的联邦学习框架，适合实际动手实践。**
+
+#### 6.1.2 基础文章推荐
+
+**1.Kairouz et al. (2021). "Advances and Open Problems in Federated Learning"**
+**这是联邦学习领域的权威综述文章：**
+[https://arxiv.org/abs/1912.04977](https://arxiv.org/abs/1912.04977)
+
+**2.McMahan et al. (2017). "Communication-Efficient Learning of Deep Networks from Decentralized Data"**
+**提出FedAvg的经典论文：**
+[https://arxiv.org/abs/1602.05629](https://arxiv.org/abs/1602.05629)
+
+#### 6.1.3 推荐书籍
+
+**1.Federated Learning: Privacy and Incentive**
+**作者：Qiang Yang 等，Springer 出版，涵盖系统架构、隐私机制、激励机制等。**
+
+**2.Federated Learning: Challenges, Methods, and Future Directions**
+**一本稍微进阶一点的书，介绍研究热点与挑战。**
+
+#### 6.1.4 课程与讲座推荐
+
+**1.卡内基梅隆大学（CMU）10-719：联邦与协同学习**
+**课程名称：10-719: Federated and Collaborative Learning**
+
+**授课教师：Prof. Virginia Smith**
+
+**课程主页：**[https://www.cs.cmu.edu/~smithv/10719/](https://www.cs.cmu.edu/~smithv/10719/)
+
+#### 6.1.5 开源框架
+
+**1.Flower**	**灵活的 FL 框架，支持多种ML库**	[https://flower.dev/](https://flower.dev/)
+**2.FedML**	**支持跨设备/跨边缘服务器等多场景的研究平台**	[https://fedml.ai/](https://fedml.ai/)
+**3.LEAF**	**联邦学习评估框架，含丰富数据集**	[https://leaf.cmu.edu/](https://leaf.cmu.edu/)
+
+#### 6.1.6 开源项目
+
+1. **一个精心整理的联邦学习（Federated Learning, FL）研究资源列表，涵盖了多个子领域的前沿论文、方法和应用。该列表主要从 arXiv 等来源收集，并按主题分类，便于研究人员查阅和学习。**
+
+   * 基础与优化方法 ：包括如 SCAFFOLD、FedDANE、FedOpt 等优化算法，旨在提高联邦学习在非独立同分布（non-IID）数据和异构设备上的性能。
+   * 垂直联邦学习（Vertical FL） ：聚焦于特征分布在不同参与方之间的场景，涵盖如 SecureBoost、基于准牛顿法的框架，以及利用同态加密进行实体解析的方法。
+   * 分层联邦学习（Hierarchical FL） ：探讨了客户端、边缘设备和云端之间的协同学习机制，提升系统的可扩展性和隐私保护能力。
+   * 通信效率优化 ：研究如深度梯度压缩（Deep Gradient Compression）、双向压缩（Artemis）等技术，以减少通信开销，提高训练效率。
+   * 项目地址：https://github.com/FedML-AI/FedML/blob/master/research/Awesome-Federated-Learning.md
+2. **该基准测试的主要目的是评估不同联邦学习算法在面对各种非IID数据分布时的性能表现。通过模拟现实中常见的数据异质性场景，如标签不均、特征差异和数据量不平衡，研究人员可以更全面地理解各算法的优势和局限性，从而为实际应用中的算法选择和优化提供参考。**
+
+   * 项目地址：[https://github.com/Xtra-Computing/NIID-Bench](https://github.com/Xtra-Computing/NIID-Bench)
+3. **最新联邦学习论文梳理**
+
+   * 项目地址：https://github.com/luozhengquan/Federated-paper
+
+6.2 实验室相关成果
 
 1. Fang Shi, Weiwei Lin*, Chaoda Peng, Cankun Zhong, Dong Wang, Mingyue Cheng. Dynamic Client Selection for Over-the-Air Federated Learning Network.  IEEE Internet of Things Journal, 2025: 1–1
-2. Li, Dongdong, Weiwei Lin*, Wentai Wu, Haotong Zhang, XiuMin Wang. SynFlowFL: A Dynamic Synaptic Flow Framework for Efficient, Personalized Federated Learning.  IEEE Transactions on Emerging Topics in Computational Intelligence, 2025: 1–15
+2. Dongdong Li, Weiwei Lin*, Wentai Wu, Haotong Zhang, XiuMin Wang. SynFlowFL: A Dynamic Synaptic Flow Framework for Efficient, Personalized Federated Learning.  IEEE Transactions on Emerging Topics in Computational Intelligence, 2025: 1–15
 3. Dongdong Li, Bo Liu*, Chunqiao Yang, Fang Shi, Yunfei Peng, Weiwei Lin*. K-Core Structure Feature Encoding-Based Enhanced Federated Graph Learning Framework.  IEEE Transactions on Emerging Topics in Computational Intelligence, 2025: 1–15
 4. Fang Shi, Weiwei Lin*, Xiumin Wang, Keqin Li, Albert Y. Zomaya. The Analysis and Optimization of Volatile Clients in Over-the-Air Federated Learning.  IEEE Transactions on Mobile Computing, 2024,23(12):13144 – 13157
 5. Wentai Wu, Ligang He*, Weiwei Lin*, Carsten Maple. FedProf: Selective Federated Learning based on Distributional Representation Profiling.  IEEE Transactions on Parallel and Distributed Systems , 2023,34(6):1942 - 1953, DOI: 10.1109/TPDS.2023.3265588
