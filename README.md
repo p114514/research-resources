@@ -63,9 +63,9 @@
 
 ---
 
-### - 最新DL负载调度论文梳理
+#### - 最新DL负载调度论文梳理
 
-#### 通用DL负载调度
+##### 通用DL负载调度
 - ​**Awesome-DL-Scheduling-Papers**​  
   [GitHub链接](https://github.com/S-Lab-System-Group/Awesome-DL-Scheduling-Papers)  
   📚 深度学习集群调度论文精选集，覆盖训练/推理调度器设计（如Acme、Cassini等）。
@@ -74,19 +74,19 @@
   [GitHub链接](https://github.com/byungsoo-oh/ml-systems-papers)  
   🔍 机器学习系统领域论文分类整理，含调度优化方向。
 
-#### LLM推理负载调度（LLM System）
+##### LLM推理负载调度（LLM System）
 - ​**Awesome_LLM_System-PaperList**​  
   [GitHub链接](https://github.com/galeselee/Awesome_LLM_System-PaperList)  
-  🚀 大语言模型推理优化技术全集（vLLM、DeepSpeed等），涵盖KV缓存、推测解码等前沿方向。
+  🚀 大语言模型推理优化技术全集（vLLM、DeepSpeed等），涵盖KV缓存、推测解码等。
 
 - ​**LLMSys-PaperList**​  
   [GitHub链接](https://github.com/AmberLJC/LLMSys-PaperList)  
-  🔥 补充性LLM系统论文列表，侧重服务框架与资源管理。
+  🔥 补充性LLM系统论文列表。
 
 ---
 
-### - 开源算法实现项目
-- ​**S-Lab核心项目**​  
+#### - 开源算法实现项目
+- ​**S-Lab开源调度器项目**​  
   [GitHub组织](https://github.com/S-Lab-System-Group)  
   ⚙️ 包含DL调度器原型实现（如Lucid、Hydro等）。
 
@@ -96,42 +96,42 @@
 
 ---
 
-### - 仿真调度器
+#### - 仿真调度器
 | 项目名称 | 链接 | 特点 |
 |---------|------|------|
 | Blox | [GitHub](https://github.com/msr-fiddle/blox) | 集群调度模拟器 |
 | Lucid | [GitHub](https://github.com/S-Lab-System-Group/Lucid) | 弹性训练调度仿真 |
 | Splitwise-Sim | [GitHub](https://github.com/mutinifni/splitwise-sim) | 分阶段推理模拟 |
 | Vidur | [GitHub](https://github.com/microsoft/vidur) | ​**微软开源的LLM服务仿真平台**，支持：<br>• 多维度并行策略（流水线/张量并行）<br>• 推测解码工作流模拟<br>• 自动化部署配置搜索<br>|
-| DL-Cluster-Simulator | [GitHub](https://github.com/nexuslrf/DL_cluster_simulator) | 带有可视化的集群调度模拟器 |
+| DL-Cluster-Simulator | [GitHub](https://github.com/nexuslrf/DL_cluster_simulator) | 可视化集群调度模拟器 |
 
 ---
 
-### - 开源框架
+#### - 开源框架
 - ​**vLLM**​  
   [GitHub](https://github.com/vllm-project/vllm)  
   🏆 生产级LLM服务框架，支持PagedAttention优化。
 
 - ​**SGLang**​  
   [GitHub](https://github.com/sgl-project/sglang)  
-  🌐 面向LLM的高效执行图编译器。
+  🌐 面向LLM的高效服务框架。
 
 ---
 
-### - 典型DL负载
-#### 语音模型
+#### - 典型DL负载
+##### 语音模型
 - [DeepSpeech-PyTorch](https://github.com/SeanNaren/deepspeech.pytorch)  
-  📢 基于PyTorch的语音识别模型实现。
+  📢 开源的基于PyTorch的语音识别模型实现。
 
-#### 视觉模型
+##### 视觉模型
 - [TorchVision Models](https://github.com/pytorch/vision/tree/main/torchvision/models)  
   🖼️ 标准CV模型库（ResNet、ViT等）。
 
-#### 语言模型
+##### 语言模型
 - [NVIDIA翻译模型](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Translation)  
-  🌍 Transformer系列实现。
+  🌍 Transformer/GNMT实现。
 - [NVIDIA语言建模](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/LanguageModeling)  
-  📖 GPT/BERT等预训练模型。
+  📖 BERT/Transformer-XL等模型。
 
 ---
 
