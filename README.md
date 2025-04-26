@@ -50,12 +50,91 @@
 
 ### 2.1 相关学习资料
 
+#### 2.1.1 虚拟机、容器调度
+
 1. 实验室内部报告：《云数据中心VM调度优化方法》、《主流云业务类型的负载分类模式》、《云计算弹性调度与GPU共享调度调研报告》
 2. 林伟伟，刘波，刘发贵. 《分布式计算、云计算与大数据》第2版. 机械工业出版社. 2024.07
 3. 林伟伟，彭绍亮. 云计算与大数据技术理论及应用. 清华大学出版社. 2019.07
 4. Kubernetes：容器编排工具，学习Pod调度、自动扩缩容策略，https://github.com/kubernetes/kubernetes
 5. 云数据集综述：https://github.com/ACAT-SCUT/Awesome-CloudComputing-Datasets
 6. 云计算调度仿真工具CloudSim：http://www.cloudbus.org/cloudsim/
+
+#### 2.1.2 DL负载调度
+
+---
+
+### - 最新DL负载调度论文梳理
+
+#### 通用DL负载调度
+- ​**Awesome-DL-Scheduling-Papers**​  
+  [GitHub链接](https://github.com/S-Lab-System-Group/Awesome-DL-Scheduling-Papers)  
+  📚 深度学习集群调度论文精选集，覆盖训练/推理调度器设计（如Acme、Cassini等）。
+
+- ​**ML-Systems-Papers**​  
+  [GitHub链接](https://github.com/byungsoo-oh/ml-systems-papers)  
+  🔍 机器学习系统领域论文分类整理，含调度优化方向。
+
+#### LLM推理负载调度（LLM System）
+- ​**Awesome_LLM_System-PaperList**​  
+  [GitHub链接](https://github.com/galeselee/Awesome_LLM_System-PaperList)  
+  🚀 大语言模型推理优化技术全集（vLLM、DeepSpeed等），涵盖KV缓存、推测解码等前沿方向。
+
+- ​**LLMSys-PaperList**​  
+  [GitHub链接](https://github.com/AmberLJC/LLMSys-PaperList)  
+  🔥 补充性LLM系统论文列表，侧重服务框架与资源管理。
+
+---
+
+### - 开源算法实现项目
+- ​**S-Lab核心项目**​  
+  [GitHub组织](https://github.com/S-Lab-System-Group)  
+  ⚙️ 包含DL调度器原型实现（如Lucid、Hydro等）。
+
+- ​**微软研究院工具集**​  
+  [MSR-Fiddle](https://github.com/msr-fiddle?tab=repositories)  
+  🧪 实验性调度算法与性能分析工具。
+
+---
+
+### - 仿真调度器
+| 项目名称 | 链接 | 特点 |
+|---------|------|------|
+| Blox | [GitHub](https://github.com/msr-fiddle/blox) | 集群调度模拟器 |
+| Lucid | [GitHub](https://github.com/S-Lab-System-Group/Lucid) | 弹性训练调度仿真 |
+| Splitwise-Sim | [GitHub](https://github.com/mutinifni/splitwise-sim) | 分阶段推理模拟 |
+| Vidur | [GitHub](https://github.com/microsoft/vidur) | ​**微软开源的LLM服务仿真平台**，支持：<br>• 多维度并行策略（流水线/张量并行）<br>• 推测解码工作流模拟<br>• 自动化部署配置搜索<br>|
+| DL-Cluster-Simulator | [GitHub](https://github.com/nexuslrf/DL_cluster_simulator) | 带有可视化的集群调度模拟器 |
+
+---
+
+### - 开源框架
+- ​**vLLM**​  
+  [GitHub](https://github.com/vllm-project/vllm)  
+  🏆 生产级LLM服务框架，支持PagedAttention优化。
+
+- ​**SGLang**​  
+  [GitHub](https://github.com/sgl-project/sglang)  
+  🌐 面向LLM的高效执行图编译器。
+
+---
+
+### - 典型DL负载
+#### 语音模型
+- [DeepSpeech-PyTorch](https://github.com/SeanNaren/deepspeech.pytorch)  
+  📢 基于PyTorch的语音识别模型实现。
+
+#### 视觉模型
+- [TorchVision Models](https://github.com/pytorch/vision/tree/main/torchvision/models)  
+  🖼️ 标准CV模型库（ResNet、ViT等）。
+
+#### 语言模型
+- [NVIDIA翻译模型](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/Translation)  
+  🌍 Transformer系列实现。
+- [NVIDIA语言建模](https://github.com/NVIDIA/DeepLearningExamples/tree/master/PyTorch/LanguageModeling)  
+  📖 GPT/BERT等预训练模型。
+
+---
+
 
 ### 2.2 实验室相关成果
 
